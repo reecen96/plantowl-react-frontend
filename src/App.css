@@ -69,3 +69,15 @@ body {
   padding: 70px 0 0 10px;
   border-right: 1px solid #d3d3d3;
 }
+
+#plantstatus{
+  padding-top: 10%;
+  color: black;
+}
+
+
+#datacenter{
+padding-left: 10%;
+padding-top: 10%;
+
+}

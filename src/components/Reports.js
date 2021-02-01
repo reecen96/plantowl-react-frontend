@@ -2,6 +2,7 @@ import React from 'react';
 import GaugeChart from 'react-gauge-chart'
 
 
+
 export default class App extends React.Component {
   render() {
     return (
