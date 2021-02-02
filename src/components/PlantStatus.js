@@ -3,8 +3,9 @@ import GaugeChart from 'react-gauge-chart'
 
 
 
-
 export default class App extends React.Component {
+
+
   render() {
     return (
 
@@ -31,7 +32,7 @@ export default class App extends React.Component {
               <GaugeChart id="gauge-chart6"
               animate={false}
               nrOfLevels={15}
-              percent={0.56}
+              percent={this.props.data.currentWaterLevel}
               needleColor="#345243"  />
               Water level
               </div>
@@ -49,6 +50,8 @@ export default class App extends React.Component {
             <div class="col-4"></div>
           </div>
         </div>
+
+
         </div>//#plantstatus
 
     )
