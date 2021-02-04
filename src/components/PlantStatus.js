@@ -49,7 +49,7 @@ export default class App extends React.Component {
                   <div class="row">
                      <div class="col-8">
                         <br/>
-                    
+
                         <br/>
                         <br/>
                         <br/>
