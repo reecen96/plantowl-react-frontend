@@ -9,7 +9,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div id="gauges">
-         <h1 id="reports"> Plant Status </h1>
+         
          <div id="plantimage">
             <div id= "plant1"> {this.props.data.currentMoisture*100}% </div>
             <div id= "plant2"> {this.props.data.currentMoisture2*100}%  </div>
@@ -44,12 +44,23 @@ export default class App extends React.Component {
                            needleColor="#345243"  />
                         Soil moisture sensor - plant 2
                      </div>
-
+                     <div class="col">
+                        <GaugeChart id="gauge-chart6"
+                           animate={false}
+                           nrOfLevels={30}
+                           percent={this.props.data.currentWaterLevel}
+                           needleColor="#345243" />
+                        Water level
+                     </div>
                   </div>
                   <div class="row">
                      <div class="col-8">
                         <br/>
-
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
                         <br/>
                         <br/>
                         <br/>
