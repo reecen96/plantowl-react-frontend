@@ -339,6 +339,7 @@ class Plants extends React.Component {
         window.location.href = "https://reecen96.github.io/plantowl-react-frontend/#/Login";
         return
     }// end check()
+    
 
   }//end render
 

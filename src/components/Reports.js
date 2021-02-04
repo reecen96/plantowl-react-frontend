@@ -81,7 +81,7 @@ render() {
   return (
 
     <div className="App">
-       <h1 id="heading"> Reports </h1>
+       <h1> Reports </h1>
        <div id="reportschart">
           <Line data={data} />
        </div>
