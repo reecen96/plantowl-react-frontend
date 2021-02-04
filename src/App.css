@@ -334,7 +334,7 @@ top: 20%;
 
 #arduino{
   position: absolute;
-  left: 20%;
+  left: 30%;
   /* top: 10%; */
 }
 
@@ -350,11 +350,10 @@ top: 20%;
 
 
 #renderroute{
-padding-left: 15%;
-padding-top: 10%;
+padding-left: 17%;
+padding-top: 7%;
 }
 
 #fontheader{
   font-family: 'Roboto', sans-serif;
-
 }
