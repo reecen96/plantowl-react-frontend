@@ -273,6 +273,9 @@ class Plants extends React.Component {
   //run this when component is on this page
   componentDidMount() {
     this.getData()
+
+
+    setTimeout(this.getData(), 10000)
   }//end componentDidMount
 
 
@@ -292,7 +295,7 @@ class Plants extends React.Component {
         this.setState({
             token: [token]
         });
-        window.location.reload(false);
+          window.location.href = "https://reecen96.github.io/plantowl-react-frontend/#/PlantStatus";
     }) // .then
         .catch(console.warn);
 
@@ -321,8 +324,9 @@ class Plants extends React.Component {
           console.log("Logged out!")
           axios.defaults.headers.common['Authorization'] = "";
           localStorage.setItem('jwtToken', 0);
-          window.location.reload(false);
-          return;
+          window.location.href = "https://reecen96.github.io/plantowl-react-frontend/#/Login";
+
+
       }
     })//end event listener
 
@@ -332,7 +336,8 @@ class Plants extends React.Component {
     setTimeout(check, 2000);
     var check = function() {
       if (this.state.token === "") {
-          return <Login onLoginSubmit = {this.saveLogin}/>
+        window.location.href = "https://reecen96.github.io/plantowl-react-frontend/#/Login";
+        return
     }// end check()
 
   }//end render
@@ -415,6 +420,7 @@ class Plants extends React.Component {
                           </button>
                        </div>
                     </div>
+                    <div id="renderroute">
                     <Router>
                        <Switch>
                           <Route path="/PlantStatus" exact component={() =>
@@ -440,6 +446,7 @@ class Plants extends React.Component {
                           } />
                        </Switch>
                     </Router>
+                    </div>
                     <canvas className="my-4 w-100" id="myChart" width={900} height={380} />
                     <div id= "datapage">
                     <h2>Plant date</h2>

@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
-  font-family: 'Roboto', sans-serif; 
-}
+
 
 ul{
   list-style-type: none;
@@ -177,6 +175,7 @@ color: black;
 
   body {
     font-size: .875rem;
+    font-family: 'Roboto', sans-serif;
   }
 
   .feather {
@@ -311,7 +310,7 @@ color: black;
 position: absolute;
 color: red;
 left: 8%;
-top: 54%;
+top: 20%;
 /* z-index: +2; */
 }
 
@@ -319,7 +318,7 @@ top: 54%;
   position: absolute;
   color: red;
   left: 33.5%;
-  top: 54%;
+  top: 20%;
   /* z-index: +2; */
 }
 
@@ -327,7 +326,7 @@ top: 54%;
   position: absolute;
   color: red;
   left: 55%;
-  top: 54%;
+  top: 20%;
   /* z-index: +2; */
 
 }
@@ -347,4 +346,11 @@ top: 54%;
 
 #mainbox{
   color: black;
+}
+
+
+#renderroute{
+padding-left: 15%;
+padding-top: 10%;
+
 }
