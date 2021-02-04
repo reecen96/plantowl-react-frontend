@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/plantowl-react-frontend/static/css/main.83de76a3.chunk.css",
-    "main.js": "/plantowl-react-frontend/static/js/main.0d337e33.chunk.js",
-    "main.js.map": "/plantowl-react-frontend/static/js/main.0d337e33.chunk.js.map",
+    "main.js": "/plantowl-react-frontend/static/js/main.9e40ae6e.chunk.js",
+    "main.js.map": "/plantowl-react-frontend/static/js/main.9e40ae6e.chunk.js.map",
     "runtime-main.js": "/plantowl-react-frontend/static/js/runtime-main.d8a14d0d.js",
     "runtime-main.js.map": "/plantowl-react-frontend/static/js/runtime-main.d8a14d0d.js.map",
     "static/css/2.040c2062.chunk.css": "/plantowl-react-frontend/static/css/2.040c2062.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.040c2062.chunk.css",
     "static/js/2.e3d05feb.chunk.js",
     "static/css/main.83de76a3.chunk.css",
-    "static/js/main.0d337e33.chunk.js"
+    "static/js/main.9e40ae6e.chunk.js"
   ]
 }
