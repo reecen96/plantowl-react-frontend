@@ -1,7 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
+body{
+  font-family: 'Roboto', sans-serif; 
+}
 
 ul{
   list-style-type: none;
@@ -275,7 +278,6 @@ color: black;
 
 
 #gauges{
-
   padding-left: 8%;
 }
 
@@ -293,6 +295,7 @@ color: black;
 
 #plantpic{
   position: relative;
+  top: 6%;
   width: 100%;
   height: auto;
   z-index: -1;
@@ -327,4 +330,21 @@ top: 54%;
   top: 54%;
   /* z-index: +2; */
 
+}
+
+
+#arduino{
+  position: absolute;
+  left: 20%;
+  /* top: 10%; */
+}
+
+#datapage{
+  position:relative;
+  top:20%;
+}
+
+
+#mainbox{
+  color: black;
 }

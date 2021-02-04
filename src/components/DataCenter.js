@@ -123,7 +123,7 @@ render() {
   return (
     <div class="container">
 
-    <h1> Data center </h1>
+    <h1 id="heading"> Data center </h1>
 
     <div id="datacenter">
       <div class="row row-cols-2">

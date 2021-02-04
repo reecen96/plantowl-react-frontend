@@ -338,7 +338,7 @@ class Plants extends React.Component {
   }//end render
 
   return (
-    <div>
+    <div id = "mainbox">
      <div>
         <div>
            <header className="navbar fixed-top flex-md-nowrap p-0 shadow" style={{backgroundColor: '#42c48e'}}>
@@ -356,11 +356,12 @@ class Plants extends React.Component {
                  <nav id="sidebarMenu" className="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                     <div className="position-sticky pt-3">
                        <ul class="nav flex-column sidebar-nav">
+
                           <li class="nav-item">
-                             <a class="nav-link active" aria-current="page" href="/plantowl-react-frontend/#/PlantStatus">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-speedometer" viewBox="0 0 16 16">
-                                   <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
-                                   <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z"/>
+                             <a class="nav-link" href="/plantowl-react-frontend/#/PlantStatus">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+                                <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                                 <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z"/>
                                 </svg>
                                 Plant status
                              </a>
@@ -425,7 +426,7 @@ class Plants extends React.Component {
                           <Route path="/ThreeD" exact component={() =>
                           <ThreeD data = {this.state} />
                           } />
-                          <Route path="/#/DataCenter" exact component={() =>
+                          <Route path="/DataCenter" exact component={() =>
                           <DataCenter data = {this.state} />
                           } />
                           <Route path="/PlantDetails" exact component={() =>
@@ -440,6 +441,7 @@ class Plants extends React.Component {
                        </Switch>
                     </Router>
                     <canvas className="my-4 w-100" id="myChart" width={900} height={380} />
+                    <div id= "datapage">
                     <h2>Plant date</h2>
                     <div className="table-responsive">
                        <table className="table table-striped table-sm">
@@ -469,12 +471,14 @@ class Plants extends React.Component {
                           </tbody>
                        </table>
                     </div>
+                    </div>
                  </main>
               </div>
            </div>
         </div>
      </div>
     </div>
+
   );//end retuen
 
 } // render

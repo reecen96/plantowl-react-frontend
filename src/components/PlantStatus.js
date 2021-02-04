@@ -9,7 +9,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div id="gauges">
-         <h1> Plant Status </h1>
+         <h1 id="reports"> Plant Status </h1>
          <div id="plantimage">
             <div id= "plant1"> {this.props.data.currentMoisture*100}% </div>
             <div id= "plant2"> {this.props.data.currentMoisture2*100}%  </div>
