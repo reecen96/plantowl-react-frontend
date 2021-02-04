@@ -311,7 +311,7 @@ color: black;
 position: absolute;
 color: red;
 left: 8%;
-top: 28%;
+top: 30%;
 /* z-index: +2; */
 }
 
@@ -319,7 +319,7 @@ top: 28%;
   position: absolute;
   color: red;
   left: 33.5%;
-  top: 28%;
+  top: 30%;
   /* z-index: +2; */
 }
 
@@ -327,7 +327,7 @@ top: 28%;
   position: absolute;
   color: red;
   left: 55%;
-  top: 28%;
+  top: 30%;
   /* z-index: +2; */
 
 }
