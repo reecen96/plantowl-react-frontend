@@ -34,9 +34,9 @@ import {
 
 
 //set URL for post and get requests
-const NODE_PLANTS_BASE_URL = 'http://plant-owl.herokuapp.com/plants/601b72c7ebfc916662a038f3';
-const NODE_PLANTS_POST_URL = 'http://plant-owl.herokuapp.com/login';
-const NODE_REGISTER_POST_URL = 'http://plant-owl.herokuapp.com/register';
+const NODE_PLANTS_BASE_URL = 'https://plant-owl.herokuapp.com/plants/601b72c7ebfc916662a038f3';
+const NODE_PLANTS_POST_URL = 'https://plant-owl.herokuapp.com/login';
+const NODE_REGISTER_POST_URL = 'https://plant-owl.herokuapp.com/register';
 
 
 
