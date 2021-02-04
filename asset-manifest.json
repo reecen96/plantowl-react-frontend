@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/plantowl-react-frontend/static/css/main.73ab9e01.chunk.css",
+    "main.css": "/plantowl-react-frontend/static/css/main.42e428e8.chunk.css",
     "main.js": "/plantowl-react-frontend/static/js/main.faf71ec5.chunk.js",
     "main.js.map": "/plantowl-react-frontend/static/js/main.faf71ec5.chunk.js.map",
     "runtime-main.js": "/plantowl-react-frontend/static/js/runtime-main.d8a14d0d.js",
@@ -12,14 +12,14 @@
     "static/js/3.fb99f45d.chunk.js.map": "/plantowl-react-frontend/static/js/3.fb99f45d.chunk.js.map",
     "index.html": "/plantowl-react-frontend/index.html",
     "static/css/2.040c2062.chunk.css.map": "/plantowl-react-frontend/static/css/2.040c2062.chunk.css.map",
-    "static/css/main.73ab9e01.chunk.css.map": "/plantowl-react-frontend/static/css/main.73ab9e01.chunk.css.map",
+    "static/css/main.42e428e8.chunk.css.map": "/plantowl-react-frontend/static/css/main.42e428e8.chunk.css.map",
     "static/js/2.72bc1186.chunk.js.LICENSE.txt": "/plantowl-react-frontend/static/js/2.72bc1186.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d8a14d0d.js",
     "static/css/2.040c2062.chunk.css",
     "static/js/2.72bc1186.chunk.js",
-    "static/css/main.73ab9e01.chunk.css",
+    "static/css/main.42e428e8.chunk.css",
     "static/js/main.faf71ec5.chunk.js"
   ]
 }
